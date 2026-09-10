@@ -94,3 +94,11 @@ h1{
         font-size:4em;
     }
 }
+
+/*AI prompt to build the media query:
+add a media query at the bottom which styles the h1 to 5em over 1200px */
+@media screen and (min-width:1200px){
+    h1 {
+        font-size: 5em;
+    }
+}
